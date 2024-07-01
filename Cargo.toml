@@ -30,7 +30,7 @@ name    = "proof"
 harness = false
 
 [dependencies]
-ring         = "0.16.15"
+ring         = "0.17"
 protobuf     = { version = "2.16.2",  optional = true }
 serde        = { version = "1.0.114", optional = true }
 serde_derive = { version = "1.0.114", optional = true }

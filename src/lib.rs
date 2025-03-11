@@ -12,11 +12,6 @@
 
 //! *merkle* implements a Merkle Tree in Rust.
 
-extern crate ring;
-
-#[cfg(feature = "serialization-protobuf")]
-extern crate protobuf;
-
 #[cfg(feature = "serialization-serde")]
 extern crate serde;
 #[cfg(feature = "serialization-serde")]

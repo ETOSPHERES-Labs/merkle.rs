@@ -1,5 +1,6 @@
-
 syntax = "proto3";
+
+package proof;
 
 message ProofProto {
   bytes root_hash = 1;

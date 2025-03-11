@@ -2,8 +2,6 @@ use ring::digest::{Algorithm, Digest};
 
 use crate::hashutils::{HashUtils, Hashable};
 
-pub use crate::proof::{Lemma, Positioned, Proof};
-
 /// Binary Tree where leaves hold a stand-alone value.
 #[derive(Clone, Debug, PartialEq, Eq, PartialOrd, Ord, Hash)]
 pub enum Tree<T> {

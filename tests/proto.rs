@@ -1,9 +1,5 @@
 #![cfg(feature = "serialization-protobuf")]
 
-extern crate merkle;
-extern crate protobuf;
-extern crate ring;
-
 use ring::digest::{Algorithm, Context, SHA512};
 
 use merkle::{Hashable, MerkleTree, Proof};

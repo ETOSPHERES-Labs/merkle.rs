@@ -31,7 +31,10 @@ impl<T: PartialEq> PartialEq for MerkleTree<T> {
         self.root == other.root
             && self.height == other.height
             && self.count == other.count
-            && (self.algorithm as *const Algorithm) == (other.algorithm as *const Algorithm)
+            && std::ptr::eq(
+                self.algorithm as *const Algorithm,
+                other.algorithm as *const Algorithm,
+            )
     }
 }
 

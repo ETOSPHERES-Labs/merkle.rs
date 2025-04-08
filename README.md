@@ -5,6 +5,8 @@
 ![License](https://img.shields.io/badge/license-bsd3-brightgreen.svg?style=flat)
 [![Crates.io](https://img.shields.io/crates/v/merkle.svg)](https://crates.io/crates/merkle)
 
+> Note: This is a fork of the [original `merkle` crate](https://crates.io/crates/merkle)
+
 > *merkle.rs* is a Rust implementation of a [Merkle tree](https://en.wikipedia.org/wiki/Merkle_tree).
 
 ## Documentation

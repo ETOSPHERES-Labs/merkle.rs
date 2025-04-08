@@ -1,5 +1,5 @@
 [package]
-name    = "merkle"
+name    = "etospheres-labs-merkle"
 version = "1.11.1-pre"
 authors = [
   "Frederic Jacobs <me@fredericjacobs.com>",
@@ -11,8 +11,8 @@ edition       = "2018"
 description   = "Merkle tree implementation with support for generation of inclusion proofs."
 license       = "BSD-3-Clause"
 documentation = "https://docs.rs/merkle"
-homepage      = "https://github.com/SpinResearch/merkle.rs"
-repository    = "https://github.com/SpinResearch/merkle.rs"
+homepage      = "https://github.com/ETOSPHERES-Labs/merkle.rs"
+repository    = "https://github.com/ETOSPHERES-Labs/merkle.rs"
 readme        = "README.md"
 keywords      = ["merkle", "merkle-tree"]
 categories    = ["data-structures", "cryptography"]
